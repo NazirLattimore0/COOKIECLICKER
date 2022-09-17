@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cookie.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cookies:</h1>
+    <h2 id="cookies">0</h2>
+    <img
+      src="https://images.onlinelabels.com/images/clip-art/oksmith/Chocolate%20Chip%20Cookie-314331.png"
+      onclick="ClickUp();"
+      id="cookie"
+    />
+    <p id="cpsDisplay">You are getting: 0 per second</p>
+    <p id="cpcDisplay">You are getting: 0 per click</p>
+    <button class="button" id="smallcpcBuy" onclick="cpcUp();">
+      +1 Cookies Per Click! 25 cookies.
+    </button>
+    <button class="button" id="bigcpcBuy" onclick="bigcpcUp();">
+      +6 Cookies Per Click! 250 cookies.
+    </button>
+    <button class="button" id="ClickerBuy" onclick="buyClicker();">
+      +1 Cookies Per Second! 50 cookies.
+    </button>
+    <button class="button" id="BigClickerBuy" onclick="buyBigClicker();">
+      +5 Cookies Per Second! 300 cookies.
+    </button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <button onclick="resetData();">Reset your data</button>
+
+    <script src="cookie.js"></script>
+  </body>
+</html>
